@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Instafeed on Your Website</title>
+	<style type="text/css">
+		a img{ 
+			width: 25%;
+		}
+	</style>
+</head>
+<body>
+
+    <a href="https://www.instagram.com/accounts/login/?force_authentication=1&enable_fb_login=1&next=%2Foauth%2Fauthorize%2F%3Fredirect_uri%3Dhttps%3A%2F%2Fdevelopers.facebook.com%2Finstagram%2Ftoken_generator%2Foauth%2F%26client_id%3D408978451817468%26response_type%3Dcode%26scope%3Duser_profile%2Cuser_media%26state%3D%257B%2522app_id%2522%3A%2522408978451817468%2522%2C%2522user_id%2522%3A%252217841464862712221%2522%2C%2522nonce%2522%3A%2522u2675PKjinOo4Xro%2522%257D%26logger_id%3D9cd146e0-4679-4787-8035-f1c9d48d23ee"> Login</a>
+
+	<h1 style="text-align: center">Show Instagram Feed on your Website</h1>
+    	<div id="instafeed-container"></div>
+
+
+
+	<script src="https://cdn.jsdelivr.net/gh/stevenschobert/instafeed.js@2.0.0rc1/src/instafeed.min.js"></script>
+	<script type="text/javascript">
+	var userFeed = new Instafeed({
+		get: 'user',
+		target: "instafeed-container",
+    	resolution: 'low_resolution',
+		accessToken: 'IGQWRQQUVibEtRV201anJMSnh6VVp1SkZAXUGVXU2xtTTJWZADZAlem5ncEk0RU0yUG5pbzFkbGpRUHZASSDZARSVNxNkM1Mk5UcElpenBNTXNLSHdyOXVZAa0ZARUUtaZAnZA0WlRqZAExaaDF1bS1ab045M3hWUGtLYWdmX0UZD'
+	});
+	userFeed.run();
+	</script>
+</body>
+</html>
