@@ -139,7 +139,7 @@
             "ShowBottomBarIcon": true,
             "BottomBarItems": [
                 {
-                    "Title": "Home",
+                    "Title": "THome",
                     "Logo": "Home1",
                     "LinksTo": "Home"
                 },
@@ -149,7 +149,7 @@
                     "LinksTo": "Search"
                 },
                 {
-                    "Title": "Profile",
+                    "Title": "TProfile",
                     "Logo": "Profile1",
                     "LinksTo": "Profile"
                 },
